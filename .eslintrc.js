@@ -16,9 +16,11 @@ module.exports = {
       files: ['**/*/*.test.ts'],
       plugins: ['jest'],
       extends: ['plugin:jest/recommended'],
-      rules: { 'jest/prefer-expect-assertions': 'off' },
+      rules: {
+        'jest/prefer-expect-assertions': 'off',
+      },
     },
   ],
-  rules: {},
+  rules: { '@typescript-eslint/no-var-requires': 'off' },
 };
 
