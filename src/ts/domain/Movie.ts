@@ -1,4 +1,4 @@
-import Buyable from './Buyable';
+import Buyable from '../Interfaces/Buyable';
 
 export default class Movie implements Buyable {
   constructor(
